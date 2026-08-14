@@ -1,0 +1,27 @@
+name: Feature Request
+description: Suggest an idea or improvement for MediaScout
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem are you trying to solve? Why does the current behavior fall short?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: What would you like MediaScout to do instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Screenshots, examples from other apps, or anything else that helps explain the idea.
+    validations:
+      required: false
