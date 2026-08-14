@@ -1,6 +1,12 @@
 # MediaScout-feedback
 
-Bug reports and feature requests for [MediaScout](https://mediascout.e2e4.co.uk/).
+## What is this repo?
+
+This is where you can report bugs or suggest features for **MediaScout**, a Windows app that scans your Movies and TV Shows folders, looks up metadata (titles, artwork, cast, genres, etc.) from TheMovieDB and TheTVDB, and writes it back out as sidecar files your media center (Kodi, Plex, Emby, Jellyfin, My Movies) can use.
+
+MediaScout's own source code lives in a separate, private repository — this repo exists solely as a public place to leave feedback.
+
+Website (downloads, release notes, how it works): **[mediascout.e2e4.co.uk](https://mediascout.e2e4.co.uk/)**
 
 ## How to raise a bug report or feature request
 
