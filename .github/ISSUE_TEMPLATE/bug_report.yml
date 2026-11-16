@@ -2,6 +2,11 @@ name: Bug Report
 description: Report something in MediaScout that isn't working correctly
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you attach anything:** please do not attach your `user.config` settings file, because it holds your API keys in plain text. MediaScout's logs (in `%APPDATA%\MediaScout\Logs`) include the file and folder paths it worked on, which can include your Windows user name, so look through a log before sharing it.
+
   - type: textarea
     id: description
     attributes:
